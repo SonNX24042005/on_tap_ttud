@@ -1,0 +1,21 @@
+vector<int> v;              // vector rỗng
+vector<int> v(5);           // 5 phần tử, mặc định = 0
+vector<int> v(5, 10);       // 5 phần tử, mỗi phần tử = 10
+vector<int> v = {1, 2, 3};  // khởi tạo danh sách
+v[0];        // không kiểm tra lỗi
+v.at(0);     // có kiểm tra biên
+v.front();   // phần tử đầu
+v.back();    // phần tử cuối
+v.size();    // số phần tử
+v.empty();   // kiểm tra rỗng
+v.push_back(5);     // thêm vào cuối
+v.pop_back();       // xóa phần tử cuối
+v.erase(pos)	//Xóa 1 phần tử
+v.erase(first, last)	//Xóa 1 đoạn
+v.clear();          // xóa toàn bộ
+v.size();      // số phần tử đang có
+v.resize(10);   // thay đổi kích thước
+v.resize(n, value)  //Resize + gán
+v.reserve(20); // cấp phát bộ nhớ cho 20 phần tử
+v.empty();     // true nếu rỗng
+v.swap(v2)     //Hoán đổi 2 vector
