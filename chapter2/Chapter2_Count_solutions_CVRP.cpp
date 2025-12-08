@@ -51,5 +51,5 @@ int main(){
         d_min=min(d_min,d[i]);
     }
     Try(1);
-    cout<<cnt;
+    cout<<cnt%1000000007;
 }
